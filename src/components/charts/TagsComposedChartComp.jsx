@@ -14,9 +14,9 @@ function CustomTooltip({ active, payload }) {
   );
 }
 
-export default function TagsComposedChartComp({ data, title, subtitle, animationDelay = 'delay-4' }) {
+export default function TagsComposedChartComp({ data, title, subtitle, animationDelay = 'delay-4', wrapperClass = '' }) {
   return (
-    <div className={`chart-card fade-slide-up ${animationDelay}`}>
+    <div className={`chart-card fade-slide-up ${animationDelay} ${wrapperClass}`}>
       <div className="chart-header">
         <h2 className="chart-title">{title}</h2>
         <p className="chart-subtitle">{subtitle}</p>

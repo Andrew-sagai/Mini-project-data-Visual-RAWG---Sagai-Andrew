@@ -334,7 +334,7 @@ export default function Dashboard() {
           animationDelay="delay-5" 
         />
 
-        <div className={`chart-card publisher-hype-card fade-slide-up delay-5 full-width`}>
+        <div className={`chart-card publisher-hype-card fade-slide-up delay-5`}>
           <div className="chart-header">
             <h2 className="chart-title">Top 5 Game Hype Komunitas</h2>
             <p className="chart-subtitle">Skor Hype berdasarkan akumulasi ketertarikan komunitas terhadap judul tertentu</p>
