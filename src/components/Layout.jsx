@@ -6,6 +6,9 @@ export default function Layout({ children }) {
     <div className="gaming-layout">
       <div className="dashboard-container">
         {children}
+        <footer className="dashboard-footer">
+          <p>by Andrew S</p>
+        </footer>
       </div>
     </div>
   );

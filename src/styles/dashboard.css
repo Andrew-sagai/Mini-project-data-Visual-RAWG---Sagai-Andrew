@@ -724,3 +724,19 @@
 .delay-4 { animation-delay: 0.4s; }
 .delay-5 { animation-delay: 0.5s; }
 
+
+/* ── FOOTER ── */
+.dashboard-footer {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 0.6;
+}
+
+.dashboard-footer p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
