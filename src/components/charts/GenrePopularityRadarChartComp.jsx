@@ -8,6 +8,8 @@ function CustomTooltip({ active, payload }) {
     <div className="custom-tooltip">
       <div className="label">{d.genre}</div>
       <div className="value">Skor Popularitas: {d.popularityScore.toLocaleString('id-ID')}</div>
+      {d.baseCount && <div className="value" style={{ fontSize: '0.85rem', color: '#9ca3af', marginTop: '4px' }}>Jumlah Game: {d.baseCount}</div>}
+      {d.avgRating && <div className="value" style={{ fontSize: '0.85rem', color: '#9ca3af' }}>Avg Rating: {d.avgRating.toFixed(2)} / 5</div>}
     </div>
   );
 }

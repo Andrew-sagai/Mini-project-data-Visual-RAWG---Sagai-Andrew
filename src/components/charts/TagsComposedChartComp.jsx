@@ -45,14 +45,6 @@ export default function TagsComposedChartComp({ data, title, subtitle, animation
                 <Cell key={i} fill={COLORS[i % COLORS.length]} />
               ))}
             </Bar>
-            <Line 
-              type="monotone" 
-              dataKey="count" 
-              stroke="#ef4444" 
-              strokeWidth={3} 
-              dot={{ r: 4, fill: '#1c1e2a', strokeWidth: 2, stroke: '#ef4444' }} 
-              animationDuration={2000} 
-            />
           </ComposedChart>
         </ResponsiveContainer>
       </div>
